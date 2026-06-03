@@ -1,0 +1,20 @@
+{
+  "name": "e-commerce-skills-market",
+  "interface": {
+    "displayName": "E-commerce Skills Market"
+  },
+  "plugins": [
+    {
+      "name": "e-commerce-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/e-commerce-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Ecommerce"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "e-commerce-skills",
+  "version": "0.1.0",
+  "description": "电商技能市场包：用于商品策略、卖点提炼、详情页策划、货架内容优化、直播带货脚本、大促策略和活动复盘工作流。E-commerce skills market package for product strategy, selling points, detail pages, shelf content, livestream scripts, promotions, and retrospectives.",
+  "author": {
+    "name": "saibodafu"
+  },
+  "interface": {
+    "displayName": "E-commerce Skills",
+    "description": "可复用的 Codex 电商工作流技能，覆盖商品策略、卖点提炼、详情页策划、货架内容、直播脚本、大促策略和复盘。Reusable e-commerce workflow skills for product strategy, selling points, detail pages, shelf content, livestream scripts, promotions, and retrospectives."
+  }
+}
