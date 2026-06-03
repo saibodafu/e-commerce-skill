@@ -9,7 +9,7 @@
 ### Claude Code 安装
 
 ```text
-/plugin marketplace add saibodafu/e-commerce-skills
+/plugin marketplace add saibodafu/e-commerce-skill
 /plugin install e-commerce-skills
 ```
 
