@@ -61,7 +61,11 @@ Codex 会读取 `AGENTS.md`、`.codex-plugin/plugin.json`、`commands/` 和 `ski
 /ecommerce <workflow> [context]
 ```
 
-当前仓库先保留空白骨架。新增具体 workflow 后，应同步更新：
+当前可用 workflow：
+
+- `ecommerce-content-wireframe`：电商详情页内容黑白线框稿。用户先用少量信息一键梳理详情页内容并生成可运行 HTML 初稿，再按顺序逐层精修核心价值承诺、痛点锚定、卖点强化、使用场景、产品身份卡和决策收口。
+
+新增具体 workflow 后，应同步更新：
 
 - `skills/<skill-name>/SKILL.md`
 - `commands/ecommerce.md`
@@ -78,7 +82,6 @@ Codex 会读取 `AGENTS.md`、`.codex-plugin/plugin.json`、`commands/` 和 `ski
 可按业务优先级逐步补齐：
 
 - 商品卖点提炼
-- 电商详情页策划
 - 货架标题与搜索词优化
 - 直播带货脚本
 - 达人种草 brief
@@ -106,7 +109,8 @@ Codex 会读取 `AGENTS.md`、`.codex-plugin/plugin.json`、`commands/` 和 `ski
 ├── commands/
 │   └── ecommerce.md
 └── skills/
-    └── .gitkeep
+    └── ecommerce-content-wireframe/
+        └── SKILL.md
 ```
 
 ---
