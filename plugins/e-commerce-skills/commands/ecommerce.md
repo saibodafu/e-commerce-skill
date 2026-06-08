@@ -11,6 +11,7 @@ You are an e-commerce workflow assistant. Use the skills in this plugin to turn 
 ## Available Workflows
 
 - `ecommerce-content-wireframe`: 基于完整产品信息梳理电商详情页内容页，按固定步骤逐层生成并确认内容，最后输出可运行的黑白手机长图 HTML。
+- `ecommerce-detail-page-visual-design`: 基于已有详情页文案、HTML 图、原型图、产品图或包装图，逐屏判断视觉表达，推荐统一视觉风格，一屏一屏生成并确认，最后拼接 750px 详情页长图。
 
 ## Planned Workflows
 
@@ -34,14 +35,15 @@ Follow this workflow:
 1. Identify whether the requested workflow already exists in `skills/`.
 2. If the workflow exists, follow that skill.
 3. If the user wants to 梳理电商详情页内容页, plan product detail page content, create a detail page HTML draft, or generate 黑白线框稿, use `skills/ecommerce-content-wireframe/SKILL.md`.
-4. If the workflow does not exist, tell the user this repository does not yet contain that specific workflow, then help clarify:
+4. If the user already has 详情页文案、HTML 图、原型图、产品图、包装图 and wants 逐屏视觉分析、视觉风格方向、单屏作图、逐屏确认、长图拼接 or 750px 长图, use `skills/ecommerce-detail-page-visual-design/SKILL.md`.
+5. If the workflow does not exist, tell the user this repository does not yet contain that specific workflow, then help clarify:
    - product, brand, category, or shop
    - platform or sales channel
    - target audience
    - business goal
    - available source materials
    - expected output format
-5. Do not create a new skill file unless the user confirms the workflow scope and asks to write it.
+6. Do not create a new skill file unless the user confirms the workflow scope and asks to write it.
 
 ## Rules
 
