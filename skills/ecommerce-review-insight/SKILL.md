@@ -3,11 +3,11 @@ name: ecommerce-review-insight
 description: 当用户提供批量化的电商用户评论数据，希望按固定流程完成数据质检、清洗、字段拆分、结构化打标、购买人群与场景、正负面口碑、竞品参照物分析，并同时输出可筛选编辑 Excel 分析母表和可视化 HTML 完整分析报告时使用。
 ---
 
-# 电商用户评论数据分析｜E-commerce Customer Review Analysis
+# 电商用户评论数据分析｜E-commerce Consumer Feedback Analysis
 
 ## 基础信息
 
-- Skill 名称：电商用户评论数据分析｜E-commerce Customer Review Analysis
+- Skill 名称：电商用户评论数据分析｜E-commerce Consumer Feedback Analysis
 - 前置输入：批量化的用户评论数据
 - 必填列：商品名、评论人、评价内容、混合时间规格列
 - 输出组合：可筛选编辑 Excel 分析母表 + 可视化 HTML 完整分析报告

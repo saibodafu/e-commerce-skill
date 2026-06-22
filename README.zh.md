@@ -173,7 +173,7 @@
 
 ## Skill 4：ecommerce-review-insight
 
-电商用户评论数据分析：E-commerce Customer Review Analysis。
+电商用户评论数据分析：E-commerce Consumer Feedback Analysis。
 
 ### 安装
 
